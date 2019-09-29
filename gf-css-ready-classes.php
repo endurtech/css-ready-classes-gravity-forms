@@ -1,6 +1,6 @@
 <?php
 /* --------------------------------------------------
-Plugin Name: Gravity CSS Ready Classes Picker
+Plugin Name: Gravity CSS Ready Classes
 Plugin URI: https://endurtech.com/gravity-forms-css-ready-classes-plugin
 Description: Show and select Gravity Forms CSS Ready Classes from within your form field appearence tab.
 Version: 2.4.2
