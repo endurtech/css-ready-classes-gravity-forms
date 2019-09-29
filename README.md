@@ -1,4 +1,4 @@
-# Gravity CSS Ready Classes Picker
+# Gravity CSS Ready Classes
 
 Contributors: Brad Vincent, Mike Kormendy & Manny Rodrigues  
 Donations: https://endurtech.com/give-thanks/  
@@ -37,7 +37,8 @@ License: GPLv3 or later
 ## Changelog
 
 * 2.4.2
-  * Simplified Class Section
+  * Simplified Class Section.
+  * Tested against latest WP and GF versions.
 * 2.4.1
   * Added new invisible css class.
   * Updated code, made it cleaner.
