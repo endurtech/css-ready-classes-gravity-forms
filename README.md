@@ -5,7 +5,7 @@ Donations: https://endurtech.com/give-thanks/
 Tags: gravityforms,gravity forms,css ready classes,ready classes,css classes  
 Requires WP: 5.0+  
 Tested to: 5.2.3  
-Stable tag: 2.4.3  
+Stable tag: 2.4.4  
 License: GPLv3 or later  
 
 ## Description
