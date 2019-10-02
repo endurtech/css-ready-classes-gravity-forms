@@ -36,6 +36,8 @@ License: GPLv3 or later
 
 ## Changelog
 
+* 2.4.4
+  * Uniquely renamed functions to ensure compatibility with other plugins.
 * 2.4.3
   * Updated name for publication on WordPress.org Plugin directory.
 * 2.4.2

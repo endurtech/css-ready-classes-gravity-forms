@@ -3,7 +3,7 @@
 Plugin Name: CSS Ready Classes for Gravity Forms
 Plugin URI: https://endurtech.com/css-ready-classes-plugin/
 Description: Show and select CSS Ready Classes for Gravity Forms from within appearence tab of your Form fields.
-Version: 2.4.3
+Version: 2.4.4
 Author: Manny Rodrigues
 Author URI: https://endurtech.com/
 Requires WP: 5.0+
@@ -19,10 +19,10 @@ if( ! defined( 'ABSPATH' ) )
 
 if( class_exists( 'RGForms' ) )
 {
-    add_action( 'gform_editor_js', 'render_editor_js' );
+    add_action( 'gform_editor_js', 'cssready_select_classes_js' );
 }
 
-function render_editor_js()
+function cssready_select_classes_js()
 {
   $modal_html = "<style>
   #css_ready_selector, .cssr_ul li span, a.cssr_link {
@@ -166,7 +166,7 @@ function render_editor_js()
   </div>";
 ?>
 <script>
-function removeTokenFromInput( input, tokenPos, seperator )
+function removeCssReadyTokenFromInput( input, tokenPos, seperator )
 {
   var text = input.val();
   var tokens = text.split( seperator );
@@ -182,9 +182,9 @@ function removeTokenFromInput( input, tokenPos, seperator )
       newText += ( tokens[i].trim() + seperator );
     }
   }
-  input.val( fixTokens( newText, seperator ) );
+  input.val( fixCssReadyTokens( newText, seperator ) );
 }
-function addTokenToInput( input, tokenToAdd, seperator )
+function addCssReadyTokenToInput( input, tokenToAdd, seperator )
 {
   var text = input.val().trim();
   if( text == '' )
@@ -193,13 +193,13 @@ function addTokenToInput( input, tokenToAdd, seperator )
   }
   else
   {
-    if( ! tokenExists( input, tokenToAdd, seperator ) )
+    if( ! tokenCssReadyExists( input, tokenToAdd, seperator ) )
     {
-      input.val( fixTokens( text + seperator + tokenToAdd, seperator ) );
+      input.val( fixCssReadyTokens( text + seperator + tokenToAdd, seperator ) );
     }
   }
 }
-function fixTokens( tokens, seperator )
+function fixCssReadyTokens( tokens, seperator )
 {
   var text = tokens.trim();
   var tokens = text.split( seperator );
@@ -215,7 +215,7 @@ function fixTokens( tokens, seperator )
   }
   return newTokens;
 }
-function tokenExists( input, tokenToCheck, seperator )
+function tokenCssReadyExists( input, tokenToCheck, seperator )
 {
   var text = input.val().trim();
   if( text == '' )
@@ -253,14 +253,14 @@ jQuery( document ).bind( "gform_load_field_settings", function( event, field, fo
       {
         e.preventDefault();
         var css = jQuery( this ).attr( "rel" );
-        addTokenToInput( jQuery( "#field_css_class" ), css, ' ' );
+        addCssReadyTokenToInput( jQuery( "#field_css_class" ), css, ' ' );
         SetFieldProperty( 'cssClass', jQuery( "#field_css_class" ).val().trim() );
       } );
       $links.unbind( "dblclick" ).dblclick( function( e )
       {
         e.preventDefault();
         var css = jQuery( this ).attr( "rel" );
-        addTokenToInput( jQuery( "#field_css_class" ), css, ' ' );
+        addCssReadyTokenToInput( jQuery( "#field_css_class" ), css, ' ' );
         SetFieldProperty( 'cssClass', jQuery( "#field_css_class" ).val().trim() );
         tb_remove();
       } );
