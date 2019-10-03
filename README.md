@@ -1,8 +1,8 @@
 # CSS Ready Classes for Gravity Forms
 
-Contributors: Brad Vincent, Mike Kormendy & Manny Rodrigues  
+Contributors: Manny Rodrigues, Brad Vincent & Mike Kormendy  
 Donations: https://endurtech.com/give-thanks/  
-Tags: gravityforms,gravity forms,css ready classes,ready classes,css classes  
+Tags: css ready classes,ready classes,css classes,gravityforms,gravity forms  
 Requires WP: 5.0+  
 Tested to: 5.2.3  
 Stable tag: 2.4.4  
@@ -10,7 +10,9 @@ License: GPLv3 or later
 
 ## Description
 
-> This WordPress plugin will allow you to conveniently select from a fully updated list of CSS Ready Classes from within your Gravity Forms form field's Appearance tab. This plugin is a modified version of [Brad's Gravity Forms CSS Ready Class Selector WordPress plugin](https://wordpress.org/plugins/gravity-forms-css-ready-selector/). Special thanks to Brad for the original code and Mike for the cleaned up version! [View plugin web site](https://endurtech.com/css-ready-classes-plugin/) for more details.  
+> This WordPress plugin will allow you to conveniently select from a fully updated list of CSS Ready Classes from within your Gravity Forms form field's Appearance tab. This plugin is a modified version of [Brad's Gravity Forms CSS Ready Class Selector WordPress plugin](https://wordpress.org/plugins/gravity-forms-css-ready-selector/). Special thanks to [Brad Vincent](https://profiles.wordpress.org/bradvin/) for the original code and [Mike Kormendy](https://github.com/mkormendy) for the cleaned up version! [View plugin web site](https://endurtech.com/css-ready-classes-plugin/) for more details.  
+
+Did this plugin save you time and add value? [Share your appreciation](https://endurtech.com/give-thanks/) and support future improvements.  
 
 * Compatible with Gravity Forms v2.4.14
 * Requires at least v2.0 of Gravity Forms
@@ -25,9 +27,9 @@ License: GPLv3 or later
 
 ## Installation
 
-1. Upload the plugin folder to your '/wp-content/plugins/' folder.
-2. Activate the plugin through the 'Plugins' menu in WordPress.
-3. Make sure Gravity Forms is activated.
+1. Make sure Gravity Forms is installed and activated.
+2. Upload the plugin folder to your '/wp-content/plugins/' folder.
+3. Activate the plugin through the 'Plugins' menu in WordPress.
 
 ## Screenshots
 
@@ -55,3 +57,8 @@ License: GPLv3 or later
   * Removed extraneous instantiation and cleaned up styling (Thanks Mike).
 * 1.2
   * Initial release.  
+
+## FAQ
+
+* Does this plugin rely on anything?
+  * Yes, you must have Gravity Forms installed and activated.
