@@ -65,7 +65,6 @@ Did this plugin save you time and add value? [Share your appreciation](https://e
 = Does this plugin rely on anything? =
 Yes, you must have Gravity Forms installed and activated.
 
-
 == Upgrade Notice ==
 
 There is a new version of CSS Ready Classes for Gravity Forms available.
