@@ -17,16 +17,16 @@ This WordPress plugin will allow you to conveniently select from a fully updated
 Did this plugin save you time and add value? [Share your appreciation](https://endurtech.com/give-thanks/) and support future improvements.  
 
 == Features ==
-* Convenient link added under the Advanced tab next to the \"Custom CSS Class\" field.
-* Clean and simple popup that lists all the \"Ready Classes\".
-* Add more than one \"Ready Class\".
-* Double click a \"Ready Class\" to add it and auto-close the popup.
-* Hover over a \"Ready Class\" to obtain a description of the class.
+* Convenient link added under the Advanced tab next to the "Custom CSS Class" field.
+* Clean and simple popup that lists all the CSS Ready Classes.
+* Add more than one Ready Class.
+* Double click any CSS Ready Class to add it and auto-close the popup.
+* Hover over any CSS Ready Class to obtain a description of the class.
 
 == Installation ==
 1. Make sure Gravity Forms is installed and activated.
-2. Upload the plugin folder to your \'/wp-content/plugins/\' folder.
-3. Activate the plugin through the \'Plugins\' menu in WordPress.
+2. Upload the plugin folder to your '/wp-content/plugins/' folder.
+3. Activate the plugin through the 'Plugins' menu in WordPress.
 
 == Screenshots ==
 1. The CSS link that gets added in the Advanced tab.
@@ -35,24 +35,30 @@ Did this plugin save you time and add value? [Share your appreciation](https://e
 == Changelog ==
 
 = 2.4.4 =
-* Uniquely renamed functions to ensure compatibility with other plugins.
+  * Uniquely renamed functions to ensure compatibility with other plugins.
 
-= 1.4.1 =
-* +Updated code formatting.
-* +Updated GPL licensing.
-* Renamed languages folder to locale.
+= 2.4.3 =
+  * Updated name for publication on WordPress.org Plugin directory.
 
-= 1.4.0 =
-* +Added database cleanup function upon plugin deactivation.
+= 2.4.2 =
+  * Simplified Class Section.
+  * Tested against latest WP and GF versions.
 
-= 1.3.0 =
-* +Added notice of disabled emails in admin dashboard at a glance metabox.
+= 2.4.1 =
+  * Added new invisible css class.
+  * Updated code, made it cleaner.
 
-= 1.2.0 =
-* +Added ability to disable ALL WordPress emails.
+= 2.4 =
+  * Added new vertical css classes, reordered classes and updated titles.
+  * Added donate link.
 
-= 1.0.0 =
-* Initial release.
+= 2.2 =
+  * Added new css classes and titles.
+  * Replaced linked icon with text link.
+  * Removed extraneous instantiation and cleaned up styling (Thanks Mike).
+
+= 1.2 =
+  * Initial release.
 
 == Frequently Asked Questions ==
 
