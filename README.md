@@ -10,7 +10,7 @@ License: GPLv3 or later
 
 ## Description
 
-> This WordPress plugin will allow you to conveniently select from a fully updated list of CSS Ready Classes from within your Gravity Forms form field's Appearance tab. This plugin is a modified version of [Brad's Gravity Forms CSS Ready Class Selector WordPress plugin](https://wordpress.org/plugins/gravity-forms-css-ready-selector/). Special thanks to [Brad Vincent](https://profiles.wordpress.org/bradvin/) for the original code and [Mike Kormendy](https://github.com/mkormendy) for the cleaned up version! [View plugin web site](https://endurtech.com/css-ready-classes-plugin/) for more details.  
+> This WordPress plugin will allow you to conveniently select from a fully updated list of CSS Ready Classes from within your Gravity Forms form field's Appearance tab. This plugin is a modified version of [Brad's Gravity Forms CSS Ready Class Selector WordPress plugin](https://wordpress.org/plugins/gravity-forms-css-ready-selector/). Special thanks to [Brad Vincent](https://profiles.wordpress.org/bradvin/) for the original code and [Mike Kormendy](https://github.com/mkormendy) for the cleaned up version! [Visit our plugin web site](https://endurtech.com/css-ready-classes-plugin/) for more details.  
 
 Did this plugin save you time and add value? [Share your appreciation](https://endurtech.com/give-thanks/) and support future improvements.  
 
@@ -55,7 +55,7 @@ Did this plugin save you time and add value? [Share your appreciation](https://e
 * 1.2
   * Initial release.  
 
-## FAQ
+## Frequently Asked Questions
 
 * Does this plugin rely on anything?
   * Yes, you must have Gravity Forms v2.0+ installed and activated.
