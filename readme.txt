@@ -63,7 +63,7 @@ Did this plugin save you time and add value? [Share your appreciation](https://e
 == Frequently Asked Questions ==
 
 = Does this plugin rely on anything? =
-Yes, you must have Gravity Forms installed and activated.
+Yes, you must have Gravity Forms v2.0+ installed and activated.
 
 == Upgrade Notice ==
 
