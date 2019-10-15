@@ -3,9 +3,9 @@ Contributors: endurox
 Tags: css ready classes, ready classes, css classes, gravityforms, gravity forms
 Donate link: https://endurtech.com/give-thanks/
 Requires at least: 5.0
-Tested up to: 5.2.3
+Tested up to: 5.2.4
 Requires PHP: 5.6
-Stable tag: 2.4.4
+Stable tag: 2.4.5
 License: GPLv3 or later
 License URI: http://www.gnu.org/licenses/gpl-3.0.html
 
@@ -33,6 +33,9 @@ Did [this plugin](https://endurtech.com/css-ready-classes-plugin/) save you time
 2. The popup window displayed.
 
 == Changelog ==
+
+= 2.4.5 =
+  * Tested against WordPress 5.2.4
 
 = 2.4.4 =
   * Uniquely renamed functions to ensure compatibility with other plugins.

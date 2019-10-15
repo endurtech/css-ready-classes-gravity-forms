@@ -4,8 +4,8 @@ Contributors: Manny Rodrigues, Brad Vincent & Mike Kormendy
 Donations: https://endurtech.com/give-thanks/  
 Tags: css ready classes,ready classes,css classes,gravityforms,gravity forms  
 Requires WP: 5.0  
-Tested to: 5.2.3  
-Stable tag: 2.4.4  
+Tested to: 5.2.4  
+Stable tag: 2.4.5  
 License: GPLv3 or later  
 
 ## Description
@@ -35,6 +35,8 @@ Did [this plugin](https://endurtech.com/css-ready-classes-plugin/) save you time
 
 ## Changelog
 
+* 2.4.5
+  * Tested against WordPress 5.2.4
 * 2.4.4
   * Uniquely renamed functions to ensure compatibility with other plugins.
 * 2.4.3
