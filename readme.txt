@@ -3,7 +3,7 @@ Contributors: endurox
 Tags: css ready classes, ready classes, css classes, gravityforms, gravity forms
 Donate link: https://endurtech.com/give-thanks/
 Requires at least: 5.0
-Tested up to: 5.2.4
+Tested up to: 5.3.0
 Requires PHP: 5.6
 Stable tag: 2.4.5
 License: GPLv3 or later

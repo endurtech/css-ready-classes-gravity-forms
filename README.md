@@ -4,7 +4,7 @@ Contributors: Manny Rodrigues, Brad Vincent & Mike Kormendy
 Donations: https://endurtech.com/give-thanks/  
 Tags: css ready classes,ready classes,css classes,gravityforms,gravity forms  
 Requires WP: 5.0  
-Tested to: 5.2.4  
+Tested to: 5.3.0  
 Stable tag: 2.4.5  
 License: GPLv3 or later  
 
