@@ -1,18 +1,19 @@
 === CSS Ready Classes for Gravity Forms ===
 Contributors: endurox
-Tags: css ready classes, ready classes, css classes, gravityforms, gravity forms
 Donate link: https://endurtech.com/give-thanks/
-Requires at least: 5.0
-Tested up to: 5.3.0
-Requires PHP: 5.6
-Stable tag: 2.4.5
+Tags: css ready classes, ready classes, css classes, gravityforms, gravity forms
 License: GPLv3 or later
 License URI: http://www.gnu.org/licenses/gpl-3.0.html
+Requires at least: 5.0
+Tested up to: 5.3
+Stable tag: 2.4.5
 
 Conveniently select Gravity Form CSS Ready Classes from your form fields Appearance tab.
 
 == Description ==
 This WordPress plugin will allow you to conveniently select from a fully updated list of CSS Ready Classes from within your Gravity Forms form field's Appearance tab. This plugin is a modified version of [Brad's Gravity Forms CSS Ready Class Selector WordPress plugin](https://wordpress.org/plugins/gravity-forms-css-ready-selector/). Special thanks to [Brad Vincent](https://profiles.wordpress.org/bradvin/) for the original code and [Mike Kormendy](https://github.com/mkormendy) for the cleaned up version! [Visit our plugin web site](https://endurtech.com/css-ready-classes-plugin/) for more details.  
+
+Considering the addition of a function to remove all backend tooltips from Gravity Forms. These tooltips are helpful to the uninitiated but quickly become a pest as they frequently appear (at least to me) with accidential cursor hover preventing the editing of fields.  
 
 Did [this plugin](https://endurtech.com/css-ready-classes-plugin/) save you time and add value? [Share your appreciation](https://endurtech.com/give-thanks/) and support future improvements.  
 
@@ -35,7 +36,7 @@ Did [this plugin](https://endurtech.com/css-ready-classes-plugin/) save you time
 == Changelog ==
 
 = 2.4.5 =
-  * Tested against WordPress 5.2.4
+  * Tested against WordPress 5.3
 
 = 2.4.4 =
   * Uniquely renamed functions to ensure compatibility with other plugins.
