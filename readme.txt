@@ -14,9 +14,9 @@ Conveniently select Gravity Form CSS Ready Classes from your form fields Appeara
 
 This WordPress plugin will allow you to conveniently select from a fully updated list of CSS Ready Classes from within your Gravity Forms form field's Appearance tab. This plugin is a modified version of [Brad's Gravity Forms CSS Ready Class Selector WordPress plugin](https://wordpress.org/plugins/gravity-forms-css-ready-selector/). Special thanks to [Brad Vincent](https://profiles.wordpress.org/bradvin/) for the original code and [Mike Kormendy](https://github.com/mkormendy) for the cleaned up version! [Visit our plugin web site](https://endurtech.com/css-ready-classes-plugin/) for more details.  
 
-This plugin, as of v2.5, will also HIDE ALL Gravity Forms backend tooltips when managing your forms. Those tooltips are helpful to the uninitiated but quickly become a pest to those of us who are initiated. To restore tooltip function simply disable this plugin. In the future I will look into embedding this feature into the main Gravity Forms Settings area so that it can be toggled. If anyone wants to help me achieve this please [get in touch with me](https://endurtech.com/contact/).  
+This plugin, as of v2.5, will also HIDE ALL Gravity Forms backend tooltips when managing your forms. Those tooltips are helpful to the uninitiated but quickly become a pest to those of us who are initiated. To restore tooltip function simply disable this plugin. In the future I will look into embedding this feature into the main Gravity Forms Settings area so that it can be toggled. If anyone wants to help me achieve this please [get in touch](https://endurtech.com/contact/).  
 
-Support my work and future improvements to this plugin by [sending me a tip using your Brave browser](https://endurtech.com/css-ready-classes-plugin/) or by [sending me a one-time donation](https://endurtech.com/give-thanks/).  
+Support my work and future improvements to this plugin by [sending me a tip using Brave](https://endurtech.com/send-a-tip-using-the-brave-browser/) or by [sending me a one-time donation](https://endurtech.com/give-thanks/).  
 
 == Features ==
 
