@@ -8,8 +8,8 @@ Author URI: https://endurtech.com/
 License: GPLv3 or later
 License URI: http://www.gnu.org/licenses/gpl-3.0.html
 Requires at least: 5.0
-Tested up to: 5.3
-Version: 2.5
+Tested up to: 5.3.1
+Version: 2.5.0
 -------------------------------------------------- */
 
 if( ! defined( 'ABSPATH' ) )

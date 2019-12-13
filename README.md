@@ -4,7 +4,7 @@ Contributors: Manny Rodrigues, Brad Vincent & Mike Kormendy
 Donations: https://endurtech.com/give-thanks/  
 Tags: css ready classes,ready classes,css classes,gravityforms,gravity forms  
 Requires WP: 5.0  
-Tested to: 5.3  
+Tested to: 5.3.1  
 Stable tag: 2.5.0  
 License: GPLv3 or later  
 
@@ -41,6 +41,8 @@ Support my work and future improvements to this plugin by [sending me a tip usin
 * 2.5.0
   * All backend tooltips within Gravity Forms are now hidden by default.
   * Added new Read-only CSS class. NOTE: Requires an embedded JavaScript snippet within a hidden HTML form field. [Get the needed JavaScript snippet](https://endurtech.com/how-to-disable-or-hide-gravity-forms-tooltips-in-backend/).
+* 2.4.6
+  * Tested against WordPress 5.3.1
 * 2.4.5
   * Tested against WordPress 5.3
 * 2.4.4
