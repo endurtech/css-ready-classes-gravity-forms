@@ -2,13 +2,13 @@
 /* --------------------------------------------------
 Plugin Name: CSS Ready Classes for Gravity Forms
 Plugin URI: https://endurtech.com/css-ready-classes-plugin/
-Description: Show and select CSS Ready Classes for Gravity Forms from within appearence tab of your Form fields.
+Description: Show and select CSS Ready Classes for Gravity Forms from within appearence tab of your Form fields and hide all form backend tooltips.
 Author: Manny Rodrigues
 Author URI: https://endurtech.com/
 License: GPLv3 or later
 License URI: http://www.gnu.org/licenses/gpl-3.0.html
 Requires at least: 5.0
-Tested up to: 5.3.1
+Tested up to: 5.5
 Version: 2.5.0
 -------------------------------------------------- */
 

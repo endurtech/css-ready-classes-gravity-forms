@@ -5,7 +5,7 @@ Tags: css ready classes, ready classes, css classes, gravityforms, gravity forms
 License: GPLv3 or later
 License URI: http://www.gnu.org/licenses/gpl-3.0.html
 Requires at least: 5.0
-Tested up to: 5.3.1
+Tested up to: 5.5
 Stable tag: 2.5.0
 
 Conveniently select Gravity Form CSS Ready Classes from your form fields Appearance tab.
@@ -43,6 +43,7 @@ Support my work and future improvements to this plugin by [sending me a tip usin
 = 2.5.0 =
   * All backend tooltips within Gravity Forms are now hidden by default.
   * Added new Read-only CSS class. NOTE: Requires an embedded JavaScript snippet within a hidden HTML form field. [Get the needed JavaScript snippet](https://endurtech.com/how-to-disable-or-hide-gravity-forms-tooltips-in-backend/).
+  * Tested against WordPress 5.5
 
 = 2.4.6 =
   * Tested against WordPress 5.3.1
