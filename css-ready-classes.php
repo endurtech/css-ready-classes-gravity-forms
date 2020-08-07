@@ -9,7 +9,21 @@ License: GPLv3 or later
 License URI: http://www.gnu.org/licenses/gpl-3.0.html
 Requires at least: 5.0
 Tested up to: 5.5
-Version: 2.5.0
+Version: 2.6.0
+
+NOTES FOR v2.7 Release:
+
+Confirmation Classes
+  New Form submission Confirmation CSS Ready Classes. Add a class to the 'CSS Class Name' input under 'Form Layout' within the 'Form Settings' page. This will turn your form submission confirmation message into a colored banner. Works with 'text' type confirmation messages, NOT page or redirect confirmations.
+gf_confirmation_simple_yellow
+  This turns the confirmation message into a banner with a yellow background.
+gf_confirmation_simple_gray
+  This turns the confirmation message into a banner with a gray background.
+gf_confirmation_yellow_gradient
+  This turns the confirmation message into a banner with a yellow gradient background.
+gf_confirmation_green_gradient
+  This turns the confirmation message into a banner with a green gradient background.
+
 -------------------------------------------------- */
 
 if( ! defined( 'ABSPATH' ) )
@@ -110,7 +124,7 @@ a.cssr_link:active {
 }
 </style>
 <div id='css_ready_modal'>
-  <p>Click to add any <a href='https://docs.gravityforms.com/css-ready-classes/' target='_blank' title='Opens New Window.'>CSS ready class</a>. Double-clicking adds the class and closes popup. <a href='https://endurtech.com/how-to-disable-or-hide-gravity-forms-tooltips-in-backend/' target='_blank' title='Opens New Window.'>Get the snippet needed</a> to use the Read-only class. <a href='https://endurtech.com/give-thanks/' target='_blank' title='Opens New Window'><strong>Support future improvements with a small donation</strong></a>.</p>
+  <p>Double-click to add <a href='https://docs.gravityforms.com/css-ready-classes/' target='_blank' title='Opens New Window.'>CSS Ready Class</a> and close popup. <a href='https://endurtech.com/css-ready-classes-wordpress-plugin/' target='_blank' title='Opens New Window.'>Learn More</a>.</p>
   <ul class='cssr_ul'>
     <li>
       <span>Columns</span>
@@ -144,7 +158,6 @@ a.cssr_link:active {
         <a class='cssr_link' href='#' rel='gf_list_4col_vertical' title='Equally-spaced 4 col vertical multi-choice/checkboxs. Any form label.'>4 Col Vertical</a>
         <a class='cssr_link' href='#' rel='gf_list_5col_vertical' title='Equally-spaced 5 col vertical multi-choice/checkboxs. Any form label.'>5 Col Vertical</a>
       </div>
-
       <div>
         <a class='cssr_link' href='#' rel='gf_list_inline' title='Inline horizontal multi-choice/checkboxs, not = spaced. Any form label.'>Inline List</a>
         <a class='cssr_link' href='#' rel='gf_list_height_25' title='25px height multi-choice/checkboxs. Any form label.'>25px Height</a>
@@ -170,6 +183,13 @@ a.cssr_link:active {
         <a class='cssr_link' href='#' rel='gf_hide_charleft' title='Hides Maximum Characters Left on paragraph/text fields. Any form label.'>Hide Character Count</a>
         <a class='cssr_link' href='#' rel='gf_scroll_text' title='Converts Section Break into fixed height box. Shows scroll bar if overflow. Only works on Section Breaks. Any form label.'>Scroll Section Break</a>
         <a class='cssr_link' href='#' rel='gf_readonly' title='Creates read-only field with use of additional script. Any form label.'>Read-only</a>
+      </div>
+      <div>
+        <a class='cssr_link' href='#' rel='gf_alert_red' title='Turns HTML field and contents into RED banner.'>HTML Red</a>
+        <a class='cssr_link' href='#' rel='gf_alert_green' title='Turns HTML field and contents into GREEN banner.'>HTML Green</a>
+        <a class='cssr_link' href='#' rel='gf_alert_blue' title='Turns HTML field and contents into BLUE banner.'>HTML Blue</a>
+        <a class='cssr_link' href='#' rel='gf_alert_yellow' title='Turns HTML field and contents into YELLOW banner.'>HTML Yellow</a>
+        <a class='cssr_link' href='#' rel='gf_alert_gray' title='Turns HTML field and contents into GRAY banner.'>HTML Gray</a>
       </div>
     </li>
   </ul>
@@ -251,7 +271,7 @@ jQuery( document ).bind( "gform_load_field_settings", function( event, field, fo
 {
   if( jQuery( "#css_ready_selector" ).length == 0 )
   {
-    var $select_link = jQuery( "<a id='css_ready_selector' class='thickbox' href='#TB_inline?width=500&height=550&inlineId=css_ready_modal' title='Pick a CSS Ready Class'>CSS</a>" );
+    var $select_link = jQuery( "<a id='css_ready_selector' class='thickbox' href='#TB_inline?width=500&height=600&inlineId=css_ready_modal' title='Pick a CSS Ready Class'>CSS</a>" );
     var $modal = jQuery( "<?php echo preg_replace( '/\s*[\r\n\t]+\s*/', '', $modal_html ); ?>" ).hide();
     jQuery( ".css_class_setting" ).append( $select_link ).append( $modal );
     $select_link.click( function( e )
