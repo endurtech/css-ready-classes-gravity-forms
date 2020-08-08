@@ -38,7 +38,7 @@ Support my work and future improvements to this plugin by [sending me a tip usin
 
 ## Changelog
 
-*.2.7.0 (coming soon)
+* 2.7.0 (coming soon)
   * Added new Confirmation Classes. Add a class to the 'CSS Class Name' input under 'Form Layout' within the 'Form Settings' page. Turns confirmation message into colored banner. Works with 'text' type confirmation messages, NOT page or redirect confirmations.
 * 2.6.0
   * Added new HTML field CSS Ready Classes. This turns an HTML field and its contents into a colored banner message.
