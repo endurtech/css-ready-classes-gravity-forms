@@ -98,7 +98,7 @@ This plugin hides all backend tooltips. To restore tooltips you may temporarily 
 This class requires the use of an embedded JavaScript snippet within a hidden HTML form field. [Get the needed JavaScript snippet](https://endurtech.com/how-to-disable-or-hide-gravity-forms-tooltips-in-backend/).
 
 = I found this plugin helpful. How can I help? =
-Happy to have helped! Support my work and future improvements to this plugin by [sending me a tip using your Brave browser](https://endurtech.com/css-ready-classes-plugin/) or by [sending me a one-time donation](https://endurtech.com/give-thanks/). If you have any ideas for improvements or want to contribute to the code you may [get in touch with me](https://endurtech.com/contact/).  
+Happy to have helped! Support my work and future improvements to this plugin by [sending me a tip using your Brave browser](https://endurtech.com/send-a-tip-using-the-brave-browser/) or by [sending me a one-time donation](https://endurtech.com/give-thanks/). If you have any ideas for improvements or want to contribute to the code you may [get in touch with me](https://endurtech.com/contact/).  
 
 == Upgrade Notice ==
 
