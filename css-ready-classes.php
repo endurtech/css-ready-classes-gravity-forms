@@ -9,7 +9,7 @@ License: GPLv3 or later
 License URI: http://www.gnu.org/licenses/gpl-3.0.html
 Requires at least: 5.0
 Tested up to: 5.5
-Version: 2.6.0
+Version: 2.6.1
 
 NOTES FOR v2.7 Release:
 

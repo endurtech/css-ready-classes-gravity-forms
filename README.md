@@ -5,7 +5,7 @@ Donations: https://endurtech.com/give-thanks/
 Tags: css ready classes,ready classes,css classes,gravityforms,gravity forms  
 Requires WP: 5.0  
 Tested to: 5.5  
-Stable tag: 2.6.0  
+Stable tag: 2.6.1  
 License: GPLv3 or later  
 
 ## Description
@@ -40,11 +40,14 @@ Support my work and future improvements to this plugin by [sending me a tip usin
 
 * 2.7.0 (coming soon)
   * Added new Confirmation Classes. Add a class to the 'CSS Class Name' input under 'Form Layout' within the 'Form Settings' page. Turns confirmation message into colored banner. Works with 'text' type confirmation messages, NOT page or redirect confirmations.
+* 2.6.1
+  * Corrected an invalid link within the readme (thanks Michael D.)
+  * Tested against the lastest beta version (2.5 beta 1) of the new Gravity Forms plugin.
 * 2.6.0
   * Added new HTML field CSS Ready Classes. This turns an HTML field and its contents into a colored banner message.
 * 2.5.0
   * All backend tooltips within Gravity Forms are now hidden by default.
-  * Added new Read-only CSS class. NOTE: Requires an embedded JavaScript snippet within a hidden HTML form field. [Get the needed JavaScript snippet](https://endurtech.com/how-to-disable-or-hide-gravity-forms-tooltips-in-backend/).
+  * Added new Read-only CSS class. NOTE: Requires an embedded JavaScript snippet within a hidden HTML form field. [Get the needed JavaScript snippet](https://endurtech.com/create-read-only-field-in-gravityforms/).
   * Tested against WordPress 5.5
 * 2.4.6
   * Tested against WordPress 5.3.1
