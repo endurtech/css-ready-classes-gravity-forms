@@ -5,16 +5,16 @@ Donations: https://endurtech.com/give-thanks/
 Tags: css ready classes,ready classes,css classes,gravityforms,gravity forms  
 Requires WP: 5.0  
 Tested to: 5.5  
-Stable tag: 2.7.0
+Stable tag: 2.7.0  
 License: GPLv3 or later  
 
 ## Description
 
 > This WordPress plugin for Gravity Forms will allow you to quickly and conveniently select from a fully updated list of CSS Ready Classes available under your form fields' Appearance tab. This plugin is a modified version of [Brad's Gravity Forms CSS Ready Class Selector WordPress plugin](https://wordpress.org/plugins/gravity-forms-css-ready-selector/). Special thanks to [Brad Vincent](https://profiles.wordpress.org/bradvin/) for the original code and [Mike Kormendy](https://github.com/mkormendy) for the cleaned up version! [Visit the new and improved plugin web site](https://endurtech.com/css-ready-classes-plugin/) for more details.  
 
-This plugin, as of v2.5, will also HIDE ALL Gravity Forms backend tooltips when managing your forms. Those tooltips are helpful to the uninitiated but quickly become a pest to those of us who are initiated. To restore tooltip function simply disable this plugin. In a future release I will look into embedding this feature into the main Gravity Forms Settings area so that it can be toggled. If anyone wants to help me achieve this please [get in touch with me](https://endurtech.com/contact/).  
+> This plugin, as of v2.5, will also HIDE ALL Gravity Forms backend tooltips when managing your forms. Those tooltips are helpful to the uninitiated but quickly become a pest to those of us who are initiated. To restore tooltip function simply disable this plugin. In a future release I will look into embedding this feature into the main Gravity Forms Settings area so that it can be toggled. If anyone wants to help me achieve this please [get in touch with me](https://endurtech.com/contact/).  
 
-[Donate now](https://endurtech.com/give-thanks/) to ensure future improvements to this plugin by [sending me a tip using Brave](https://endurtech.com/send-a-tip-using-the-brave-browser/) or by [sending me a one-time donation](https://endurtech.com/give-thanks/).  
+> [Donate now](https://endurtech.com/give-thanks/) to ensure future improvements to this plugin by [sending me a tip using Brave](https://endurtech.com/send-a-tip-using-the-brave-browser/) or by [sending me a one-time donation](https://endurtech.com/give-thanks/).  
 
 ## Features
 
