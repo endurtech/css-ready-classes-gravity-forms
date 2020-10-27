@@ -5,23 +5,24 @@ Donations: https://endurtech.com/give-thanks/
 Tags: css ready classes,ready classes,css classes,gravityforms,gravity forms  
 Requires WP: 5.0  
 Tested to: 5.5  
-Stable tag: 2.6.1  
+Stable tag: 2.7.0
 License: GPLv3 or later  
 
 ## Description
 
-> This WordPress plugin will allow you to conveniently select from a fully updated list of CSS Ready Classes from within your Gravity Forms form field's Appearance tab. This plugin is a modified version of [Brad's Gravity Forms CSS Ready Class Selector WordPress plugin](https://wordpress.org/plugins/gravity-forms-css-ready-selector/). Special thanks to [Brad Vincent](https://profiles.wordpress.org/bradvin/) for the original code and [Mike Kormendy](https://github.com/mkormendy) for the cleaned up version! [Visit our plugin web site](https://endurtech.com/css-ready-classes-plugin/) for more details.  
+> This WordPress plugin for Gravity Forms will allow you to quickly and conveniently select from a fully updated list of CSS Ready Classes available under your form fields' Appearance tab. This plugin is a modified version of [Brad's Gravity Forms CSS Ready Class Selector WordPress plugin](https://wordpress.org/plugins/gravity-forms-css-ready-selector/). Special thanks to [Brad Vincent](https://profiles.wordpress.org/bradvin/) for the original code and [Mike Kormendy](https://github.com/mkormendy) for the cleaned up version! [Visit the new and improved plugin web site](https://endurtech.com/css-ready-classes-plugin/) for more details.  
 
-This plugin, as of v2.5, will also HIDE ALL Gravity Forms backend tooltips when managing your forms. Those tooltips are helpful to the uninitiated but quickly become a pest to those of us who are initiated. To restore tooltip function simply disable this plugin. In the future I will look into embedding this feature into the main Gravity Forms Settings area so that it can be toggled. If anyone wants to help me achieve this please [get in touch](https://endurtech.com/contact/).  
+This plugin, as of v2.5, will also HIDE ALL Gravity Forms backend tooltips when managing your forms. Those tooltips are helpful to the uninitiated but quickly become a pest to those of us who are initiated. To restore tooltip function simply disable this plugin. In a future release I will look into embedding this feature into the main Gravity Forms Settings area so that it can be toggled. If anyone wants to help me achieve this please [get in touch with me](https://endurtech.com/contact/).  
 
-Support my work and future improvements to this plugin by [sending me a tip using Brave](https://endurtech.com/send-a-tip-using-the-brave-browser/) or by [sending me a one-time donation](https://endurtech.com/give-thanks/).  
+[Donate now](https://endurtech.com/give-thanks/) to ensure future improvements to this plugin by [sending me a tip using Brave](https://endurtech.com/send-a-tip-using-the-brave-browser/) or by [sending me a one-time donation](https://endurtech.com/give-thanks/).  
 
 ## Features
 
-* Convenient link added under the Advanced tab next to the "Custom CSS Class" field.
-* Clean and simple popup that lists all the CSS Ready Classes.
-* Add more than one Ready Class.
-* Double click any CSS Ready Class to add it and auto-close the popup.
+* Conveniently accessible with a link next to the "Custom CSS Class" field under a fields' "Appearance" tab.
+* Clean and simple popup / modal window listing a fully updated list of Gravity Forms CSS Ready Classes.
+* Click to clear all previously submitted CSS Ready Classes from the "Custom CSS Class" field.
+* You are able to add more than one CSS Ready Class, when done just click away or the close button.
+* Double click any CSS Ready Class to add it and auto-close the popup / modal window.
 * Hover over any CSS Ready Class to obtain a description of the class.
 * Hides ALL Gravity Forms backend tooltips when managing your forms (as of v2.5).
 
@@ -33,16 +34,20 @@ Support my work and future improvements to this plugin by [sending me a tip usin
 
 ## Screenshots
 
-1. The CSS link that gets added in the Advanced tab.
-2. The popup window displayed.
+1. CSS link accessible under form field's 'Appearance' tab.
+2. Convenient CSS Ready Class selection Popup / modal window.
 
 ## Changelog
 
-* 2.7.0 (coming soon)
-  * Added new Confirmation Classes. Add a class to the 'CSS Class Name' input under 'Form Layout' within the 'Form Settings' page. Turns confirmation message into colored banner. Works with 'text' type confirmation messages, NOT page or redirect confirmations.
+* 2.8.0 (coming soon)
+  * Adding new Confirmation Classes. Add a class to the 'CSS Class Name' input under 'Form Layout' within the 'Form Settings' page. Turns confirmation message into colored banner. Works with 'text' type confirmation messages, NOT page or redirect confirmations.
+  * Will repurpose double click action from closing popup to removing selected class, if exists.
+* 2.7.0
+  * Added a convenient 'Clear classes' link to the top of the popup. This removes all previously entered CSS Ready Classes from the 'Custom CSS Class' field.
+  * Tested against the lastest beta version (2.5 beta 1) of the new Gravity Forms plugin.
+  * Various code improvements, minification and styling updates.
 * 2.6.1
   * Corrected an invalid link within the readme (thanks Michael D.)
-  * Tested against the lastest beta version (2.5 beta 1) of the new Gravity Forms plugin.
 * 2.6.0
   * Added new HTML field CSS Ready Classes. This turns an HTML field and its contents into a colored banner message.
 * 2.5.0
@@ -85,7 +90,7 @@ Support my work and future improvements to this plugin by [sending me a tip usin
   * This plugin hides all backend tooltips. To restore tooltips you may temporarily disable this plugin. In the future I will look into embedding this feature into the main Gravity Forms Settings area so that it can be toggled.
 
 * How do I use the Read-only CSS Ready class?
-  * This class requires the use of an embedded JavaScript snippet within a hidden HTML form field. [Get the needed JavaScript snippet](https://endurtech.com/how-to-disable-or-hide-gravity-forms-tooltips-in-backend/).
+  * This class requires the use of an embedded JavaScript snippet within a hidden HTML form field. [Get the needed JavaScript snippet](https://endurtech.com/create-read-only-field-in-gravityforms/).
 
 * I found this plugin helpful. How can I help?
   * Happy to have helped! Support my work and future improvements to this plugin by [sending me a tip using your Brave browser](https://endurtech.com/send-a-tip-using-the-brave-browser/) or by [sending me a one-time donation](https://endurtech.com/give-thanks/). If you have any ideas for improvements or want to contribute to the code you may [get in touch with me](https://endurtech.com/contact/).

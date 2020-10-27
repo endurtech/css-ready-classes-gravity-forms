@@ -9,9 +9,9 @@ License: GPLv3 or later
 License URI: http://www.gnu.org/licenses/gpl-3.0.html
 Requires at least: 5.0
 Tested up to: 5.5
-Version: 2.6.1
+Version: 2.7.0
 
-NOTES FOR v2.7 Release:
+NOTES FOR v2.8 Release:
 
 Confirmation Classes
   New Form submission Confirmation CSS Ready Classes. Add a class to the 'CSS Class Name' input under 'Form Layout' within the 'Form Settings' page. This will turn your form submission confirmation message into a colored banner. Works with 'text' type confirmation messages, NOT page or redirect confirmations.
@@ -23,6 +23,8 @@ gf_confirmation_yellow_gradient
   This turns the confirmation message into a banner with a yellow gradient background.
 gf_confirmation_green_gradient
   This turns the confirmation message into a banner with a green gradient background.
+
+Repurpose double click action from closing popup to removing selected class, if exists
 
 -------------------------------------------------- */
 
@@ -49,30 +51,17 @@ if( ! function_exists( 'gform_hide_tooltips' ) )
 function cssready_select_classes_js()
 {
   $modal_html = "<style>
-#css_ready_selector, .cssr_ul li span, a.cssr_link {
-  text-decoration:none;
-}
-#css_ready_selector {
-  display:inline-block;
-}
-#css_ready_modal h4 {
-  margin-bottom:2px;
-}
-.cssr_ul {
-  margin:10px 0 0;
-  padding:0;
-}
-.cssr_ul li {
-  margin:2px 2px 15px;
-  padding:0;
-}
-.cssr_ul li span {
+#css_ready_selector, .cssr_ul li span, a.cssr_link{text-decoration:none;}
+#css_ready_selector{display:inline-block;}
+.cssr_ul{margin:0; padding:0;}
+.cssr_ul li{margin:0; padding:0;}
+.cssr_ul li span{
   font-weight:700;
   display:block;
   text-align:left;
   color:#47759B;
 }
-.cssr_ul li div {
+.cssr_ul li div{
   display:-ms-flexbox;
   display:-webkit-box;
   display:flex;
@@ -92,7 +81,7 @@ function cssready_select_classes_js()
   align-items:center;
   margin:5px 0;
 }
-a.cssr_link {
+a.cssr_link{
   display:inline-block;
   -ms-flex-order:0;
   -webkit-box-ordinal-group:1;
@@ -108,23 +97,24 @@ a.cssr_link {
   background:#f7f7f7;
   border:1px solid #dfdfdf;
   border-radius:3px;
-  box-shadow:0 1px 0 #ccc;
+  box-shadow:0 1px 0 #cccccc;
   text-align:center;
-  color:#555;
+  color:#555555;
 }
-a.cssr_link:hover {
+a.cssr_link:hover{
   background:#fafafa;
-  border-color:#ccc;
+  border-color:#cccccc;
   color:#d54e21;
+  font-weight:bold;
 }
-a.cssr_link:active {
-  background:#eee;
-  border-color:#bbb;
-  color:#5555;
+a.cssr_link:active{
+  background:#eeeeee;
+  border-color:#bbbbbb;
+  color:#555555;
 }
 </style>
 <div id='css_ready_modal'>
-  <p>Double-click to add <a href='https://docs.gravityforms.com/css-ready-classes/' target='_blank' title='Opens New Window.'>CSS Ready Class</a> and close popup. <a href='https://endurtech.com/css-ready-classes-wordpress-plugin/' target='_blank' title='Opens New Window.'>Learn More</a>.</p>
+  <p><a class='cssr_clear' href='#' rel='' title='Clears the Custom CSS Class Field'><strong>Clear classes</strong></a> or double-click a <a href='https://docs.gravityforms.com/css-ready-classes/' target='_blank' title='Open Gravity Forms Documenation Page in New Window'>Ready Class</a> to add &amp; close popup. <a href='https://endurtech.com/css-ready-classes-wordpress-plugin/' target='_blank' title='Opens Plugin Website in New Window'>Learn More</a> / <a href='https://endurtech.com/give-thanks/' target='_blank' title='Opens Plugin Donation Page in New Window'><strong>Donate Now!</strong></a></p>
   <ul class='cssr_ul'>
     <li>
       <span>Columns</span>
@@ -196,6 +186,7 @@ a.cssr_link:active {
 </div>";
 ?>
 <script>
+/* Not in use. Intended for future release, replace 'close on double click' with remove double clicked class if exists.
 function removeCssReadyTokenFromInput( input, tokenPos, seperator )
 {
   var text = input.val();
@@ -214,6 +205,7 @@ function removeCssReadyTokenFromInput( input, tokenPos, seperator )
   }
   input.val( fixCssReadyTokens( newText, seperator ) );
 }
+*/
 function addCssReadyTokenToInput( input, tokenToAdd, seperator )
 {
   var text = input.val().trim();
@@ -271,14 +263,22 @@ jQuery( document ).bind( "gform_load_field_settings", function( event, field, fo
 {
   if( jQuery( "#css_ready_selector" ).length == 0 )
   {
-    var $select_link = jQuery( "<a id='css_ready_selector' class='thickbox' href='#TB_inline?width=500&height=600&inlineId=css_ready_modal' title='Pick a CSS Ready Class'>CSS</a>" );
+    var $select_link = jQuery( "<a id='css_ready_selector' class='thickbox' href='#TB_inline?width=500&height=620&inlineId=css_ready_modal' title='Pick a CSS Ready Class'>CSS</a>" );
     var $modal = jQuery( "<?php echo preg_replace( '/\s*[\r\n\t]+\s*/', '', $modal_html ); ?>" ).hide();
     jQuery( ".css_class_setting" ).append( $select_link ).append( $modal );
     $select_link.click( function( e )
     {
       e.preventDefault();
       var $m = jQuery( "#css_ready_modal" );
-      var $links = $m.find(".cssr_link" );
+	  // clear classes action
+	  var $links_clear = $m.find( ".cssr_clear" );
+	  $links_clear.unbind( "click" ).click( function( e )
+	  {
+        e.preventDefault();
+        SetFieldProperty( 'cssClass', jQuery( "#field_css_class" ).val("") );
+	  } );
+	  // single click action
+      var $links = $m.find( ".cssr_link" );
       $links.unbind( "click" ).click( function( e )
       {
         e.preventDefault();
@@ -286,6 +286,7 @@ jQuery( document ).bind( "gform_load_field_settings", function( event, field, fo
         addCssReadyTokenToInput( jQuery( "#field_css_class" ), css, ' ' );
         SetFieldProperty( 'cssClass', jQuery( "#field_css_class" ).val().trim() );
       } );
+	  // double click action
       $links.unbind( "dblclick" ).dblclick( function( e )
       {
         e.preventDefault();
@@ -294,6 +295,7 @@ jQuery( document ).bind( "gform_load_field_settings", function( event, field, fo
         SetFieldProperty( 'cssClass', jQuery( "#field_css_class" ).val().trim() );
         tb_remove();
       } );
+	  // title
       tb_show( 'Pick a CSS Ready Class', this.href, false );
     } );
   }
