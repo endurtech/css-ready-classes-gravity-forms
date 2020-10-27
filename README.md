@@ -1,7 +1,7 @@
 # CSS Ready Classes for Gravity Forms
 
 Contributors: Manny Rodrigues, Brad Vincent & Mike Kormendy  
-Donations: https://endurtech.com/give-thanks/  
+Donate!: https://endurtech.com/give-thanks/  
 Tags: css ready classes,ready classes,css classes,gravityforms,gravity forms  
 Requires WP: 5.0  
 Tested to: 5.5  
