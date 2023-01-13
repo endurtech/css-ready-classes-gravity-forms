@@ -71,7 +71,7 @@ This plugin, as of v2.7.6, will also HIDE ALL Gravity Forms "Required Field Noti
 
 = 2.7.0 =
   * Added a convenient 'Clear classes' link to the top of the popup. This removes all previously entered CSS Ready Classes from the 'Custom CSS Class' field.
-  * Tested against the lastest beta version (2.5 beta 1) of the new Gravity Forms plugin.
+  * Tested against the latest beta version (2.5 beta 1) of the new Gravity Forms plugin.
   * Various code improvements, minification and styling updates.
 
 = 2.6.1 =
