@@ -8,8 +8,8 @@ Author URI: https://endurtech.com/
 License: GPLv3 or later
 License URI: http://www.gnu.org/licenses/gpl-3.0.html
 Requires at least: 5.0
-Tested up to: 5.9
-Version: 2.7.4
+Tested up to: 6.1
+Version: 2.7.7
 
 NOTES FOR v2.8 Release:
 
@@ -47,6 +47,9 @@ if( ! function_exists( 'gform_hide_tooltips' ) )
     return array();
   }
 }
+
+// Gravity Forms Hide Required Fields Notification at top of all forms
+add_filter( 'gform_required_legend', '__return_empty_string' );
 
 function cssready_select_classes_js()
 {

@@ -5,8 +5,8 @@ Tags: css ready classes, ready classes, css classes, gravityforms, gravity forms
 License: GPLv3 or later
 License URI: http://www.gnu.org/licenses/gpl-3.0.html
 Requires at least: 5.0
-Tested up to: 5.9
-Stable tag: 2.7.4
+Tested up to: 6.1
+Stable tag: 2.7.7
 
 Conveniently select Gravity Form CSS Ready Classes from your form fields Appearance tab.
 
@@ -15,6 +15,8 @@ Conveniently select Gravity Form CSS Ready Classes from your form fields Appeara
 This WordPress plugin for Gravity Forms will allow you to quickly and conveniently select from a fully updated list of CSS Ready Classes available under your form fields' Appearance tab. This plugin is a modified version of [Brad's Gravity Forms CSS Ready Class Selector WordPress plugin](https://wordpress.org/plugins/gravity-forms-css-ready-selector/). Special thanks to [Brad Vincent](https://profiles.wordpress.org/bradvin/) for the original code and [Mike Kormendy](https://github.com/mkormendy) for the cleaned up version! [Visit the new and improved plugin web site](https://endurtech.com/css-ready-classes-plugin/) for more details.  
 
 This plugin, as of v2.5, will also HIDE ALL Gravity Forms backend tooltips when managing your forms. Those tooltips are helpful to the uninitiated but quickly become a pest to those of us who are initiated. To restore tooltip function simply disable this plugin. In a future release I will look into embedding this feature into the main Gravity Forms Settings area so that it can be toggled. If anyone wants to help me achieve this please [get in touch with me](https://endurtech.com/contact/).  
+
+This plugin, as of v2.7.6, will also HIDE ALL Gravity Forms "Required Field Notification" message which appears at the top of every form. That notification is helpful to the uninitiated but quickly become a pest to those of us who are initiated. To restore the notification message at the top of each form simply disable this plugin. In a future release I will look into embedding this feature into the main Gravity Forms Settings area so that it can be toggled. If anyone wants to help me achieve this please [get in touch with me](https://endurtech.com/contact/).  
 
 [Donate now](https://endurtech.com/give-thanks/) to ensure future improvements to this plugin by [sending me a tip using Brave](https://endurtech.com/send-a-tip-using-the-brave-browser/) or by [sending me a one-time donation](https://endurtech.com/give-thanks/).  
 
@@ -26,7 +28,8 @@ This plugin, as of v2.5, will also HIDE ALL Gravity Forms backend tooltips when 
 * You are able to add more than one CSS Ready Class, when done just click away or the close button.
 * Double click any CSS Ready Class to add it and auto-close the popup / modal window.
 * Hover over any CSS Ready Class to obtain a description of the class.
-* Hides ALL Gravity Forms backend tooltips when managing your forms (as of v2.5).
+* Hides ALL Gravity Form backend tooltips when managing your forms (as of v2.5).
+* Hides ALL Gravity Form frontend notification message regarding required fields (as of 2.7.6).
 
 == Installation ==
 
@@ -44,6 +47,15 @@ This plugin, as of v2.5, will also HIDE ALL Gravity Forms backend tooltips when 
 = 2.8.0 (coming soon) =
   * Adding new Confirmation Classes. Add a class to the 'CSS Class Name' input under 'Form Layout' within the 'Form Settings' page. Turns confirmation message into colored banner. Works with 'text' type confirmation messages, NOT page or redirect confirmations.
   * Will repurpose double click action from closing popup to removing selected class, if exists.
+
+= 2.7.7 =
+  * Tested against WordPress 6.1
+
+= 2.7.6 =
+  * Added the removal of the frontend required fields notification.
+
+= 2.7.5 =
+  * Tested against WordPress 6.0
 
 = 2.7.4 =
   * Tested against WordPress 5.9
