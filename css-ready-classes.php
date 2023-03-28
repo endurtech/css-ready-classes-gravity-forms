@@ -7,9 +7,9 @@ Author: Manny Rodrigues
 Author URI: https://endurtech.com/
 License: GPLv3 or later
 License URI: http://www.gnu.org/licenses/gpl-3.0.html
-Requires at least: 5.0
-Tested up to: 6.1
-Version: 2.7.7
+Requires at least: 5.4
+Tested up to: 6.2
+Version: 2.7.8
 
 NOTES FOR v2.8 Release:
 
