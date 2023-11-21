@@ -5,8 +5,8 @@ Tags: css ready classes, ready classes, css classes, gravityforms, gravity forms
 License: GPLv3 or later
 License URI: http://www.gnu.org/licenses/gpl-3.0.html
 Requires at least: 5.4
-Tested up to: 6.2
-Stable tag: 2.7.8
+Tested up to: 6.4
+Stable tag: 2.7.9
 
 Conveniently select Gravity Form CSS Ready Classes from your form fields Appearance tab.
 
@@ -48,7 +48,11 @@ This plugin, as of v2.7.6, will also HIDE ALL Gravity Forms "Required Field Noti
   * Adding new Confirmation Classes. Add a class to the 'CSS Class Name' input under 'Form Layout' within the 'Form Settings' page. Turns confirmation message into colored banner. Works with 'text' type confirmation messages, NOT page or redirect confirmations.
   * Will repurpose double click action from closing popup to removing selected class, if exists.
 
-= 2.7.8 (2023/03/28) =
+= 2.7.9 (2023-11-08) =
+  * Tested against WordPress 6.4
+  * Updated plugin author information.
+
+= 2.7.8 (2023-03-28) =
   * Tested against WordPress 6.2
 
 = 2.7.7 =
