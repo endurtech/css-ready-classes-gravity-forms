@@ -4,8 +4,8 @@ Contributors: Manny Rodrigues, Brad Vincent & Mike Kormendy
 Donate!: https://endurtech.com/give-thanks/  
 Tags: css ready classes, ready classes, css classes, gravityforms, gravity forms  
 Requires WP: 5.4  
-Tested to: 6.4  
-Stable tag: 2.7.9  
+Tested to: 6.5  
+Stable tag: 2.7.11  
 License: GPLv3 or later  
 
 ## Description
@@ -45,6 +45,12 @@ License: GPLv3 or later
 * 2.8.0 (coming soon)
   * Adding new Confirmation Classes. Add a class to the 'CSS Class Name' input under 'Form Layout' within the 'Form Settings' page. Turns confirmation message into colored banner. Works with 'text' type confirmation messages, NOT page or redirect confirmations.
   * Will repurpose double click action from closing popup to removing selected class, if exists.
+
+* 2.7.11 (2024-04-02)
+  * Added WordPress Repository blueprint feature for user previews.
+
+* 2.7.10 (2024-04-02)
+  * Tested against WordPress 6.5
 
 * 2.7.9 (2023-11-08)
   * Tested against WordPress 6.4
