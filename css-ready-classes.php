@@ -8,8 +8,8 @@ Author URI: https://wpgearpro.com
 License: GPLv3 or later
 License URI: http://www.gnu.org/licenses/gpl-3.0.html
 Requires at least: 5.4
-Tested up to: 6.8
-Version: 2.7.12
+Tested up to: 6.10
+Version: 2.7.13
 
 NOTES FOR v2.8 Release:
 
